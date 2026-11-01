@@ -1,0 +1,37 @@
+# --- Secrets and credentials ---------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# --- Python ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.backup*
+
+# --- Node ----------------------------------------------------------------
+node_modules/
+frontend/dist/
+
+# --- Logs and archives ----------------------------------------------------
+logs/
+*.log
+College_complaint.zip
+
+# --- OS / editor ----------------------------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Report working files (not part of the deliverable) -------------------
+report/Pasted image*.png
+report/CollegeComplaint-Server-AWS-Report-11_1.png
+report/CollegeComplaint-Server-AWS-Report.md
+report/admin dashboard.png
+report/student_dashboard.png
